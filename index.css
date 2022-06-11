@@ -1,5 +1,14 @@
-body
-.botao{
-    color: black;
-    size: smaller;
+.inputt{
+    background-color: rgb(0, 0, 0);
+    width: 177px;
+    height: 95px;
+    border-color: rgb(255, 136, 0);
+    border-style: dotted;
+    
+    
+}
+.calc{
+    font-size: 25px;
+    background-color: orange;
+    width: 190px;
 }

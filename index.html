@@ -10,12 +10,15 @@
 
 <body>
     <br>
-    CALCULADORA
+    <div class="calc">CALCULADORA</div>
+    
     <br>
-    <br>
-    <input type="number" id="ideUm" >
+    <div class="inputt">
+        <input type="number" id="ideUm" onkeypress="enter" >
     <P><input type="number" id="ideDois"></P>
-    <P><input type="number" id="ideResultado"></P>
+    <label Resultado></label><P><input type="number" id="ideResultado" readonly></P>
+    </div>
+    
     <div class="botao">
         <p> <button id="mais" onclick="mais()">+</button> 
             <button id="menos" onclick="menos()">-</button> 
